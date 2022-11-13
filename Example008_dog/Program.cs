@@ -23,4 +23,4 @@ while (distance > 10)
     count = count + 1;
     
 }
-Console.WriteLine(count);
+Console.WriteLine($"Собака пробежала {count} раз");
