@@ -1,13 +1,13 @@
 ﻿Console.WriteLine("Введите целое число №1 и нажмите enter");
-string aa = Console.ReadLine();
+string aa = Console.ReadLine() ?? "";
 Console.WriteLine("Введите целое число №2 и нажмите enter");
-string bb = Console.ReadLine();
+string bb = Console.ReadLine() ?? "";
 Console.WriteLine("Введите целое число №3 и нажмите enter");
-string cc = Console.ReadLine();
+string cc = Console.ReadLine() ?? "";
 Console.WriteLine("Введите целое число №4 и нажмите enter");
-string dd = Console.ReadLine();
+string dd = Console.ReadLine() ?? "";
 Console.WriteLine("Введите целое число №5 и нажмите enter");
-string ee = Console.ReadLine();
+string ee = Console.ReadLine() ?? "";
 int a = Convert.ToInt32(aa);
 int b = Convert.ToInt32(bb);
 int c = Convert.ToInt32(cc);
