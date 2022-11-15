@@ -8,12 +8,15 @@ int number1 = int.Parse(inputNumber1);
 int number2 = int.Parse(inputNumber2);
 
 int result = number1 % number2;
+string resultDescription;
+
 if (result==0)
 {
-    Console.WriteLine($"{number1}, {number2} -> кратно");
+    resultDescription = "кратно";
 }
 else
 {
-    Console.WriteLine($"{number1}, {number2} -> не кратно, остаток = {result}");
+    resultDescription = $"не кратно, остаток = {result}" ;
 }
 
+Console.WriteLine($"{number1}, {number2} -> {resultDescription}");
